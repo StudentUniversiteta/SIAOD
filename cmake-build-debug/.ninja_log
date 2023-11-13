@@ -1,3 +1,17 @@
 # ninja log v5
+3	822	7216068780684050	CMakeFiles/untitled.dir/SIAOD/S2/File.cpp.obj	4b590e998727d3f2
+1	308	7216069369687952	build.ninja	64472effe13fc1c4
 1	782	7216057366132797	CMakeFiles/untitled.dir/main.cpp.obj	4a496a18fcb1c34
+35	835	7216068780814046	CMakeFiles/untitled.dir/SIAOD/S2/main.cpp.obj	a8fe04e3f9b5cee0
 784	949	7216057367774455	untitled.exe	261af487ef5b78b9
+1	195	7216069369687952	build.ninja	64472effe13fc1c4
+3	150	7216069371610207	untitled.exe	aa78c845e3c8ba8b
+2	830	7216069774127233	CMakeFiles/untitled.dir/SIAOD/S2/main.cpp.obj	a8fe04e3f9b5cee0
+830	987	7216069775672571	untitled.exe	aa78c845e3c8ba8b
+2	824	7216069984650021	CMakeFiles/untitled.dir/SIAOD/S2/main.cpp.obj	a8fe04e3f9b5cee0
+824	972	7216069986115498	untitled.exe	aa78c845e3c8ba8b
+3	831	7216070683845108	CMakeFiles/untitled.dir/SIAOD/S2/File.cpp.obj	4b590e998727d3f2
+36	835	7216070683885116	CMakeFiles/untitled.dir/SIAOD/S2/main.cpp.obj	a8fe04e3f9b5cee0
+835	982	7216070685336258	untitled.exe	aa78c845e3c8ba8b
+3	828	7216070979183933	CMakeFiles/untitled.dir/SIAOD/S2/main.cpp.obj	a8fe04e3f9b5cee0
+828	977	7216070980654180	untitled.exe	aa78c845e3c8ba8b
