@@ -49,17 +49,17 @@ cmake_ninja_workdir = C$:/Users/artez/CLionProjects/untitled/cmake-build-debug/
 
 build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.dir
 
-build CMakeFiles/untitled.dir/SIAOD/S2/File.cpp.obj: CXX_COMPILER__untitled_unscanned_Debug C$:/Users/artez/CLionProjects/untitled/SIAOD/S2/File.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\SIAOD\S2\File.cpp.obj.d
+build CMakeFiles/untitled.dir/SIAOD/A/S2/n1/File.cpp.obj: CXX_COMPILER__untitled_unscanned_Debug C$:/Users/artez/CLionProjects/untitled/SIAOD/A/S2/n1/File.cpp || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\SIAOD\A\S2\n1\File.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\SIAOD\S2
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\SIAOD\A\S2\n1
 
-build CMakeFiles/untitled.dir/SIAOD/S2/main.cpp.obj: CXX_COMPILER__untitled_unscanned_Debug C$:/Users/artez/CLionProjects/untitled/SIAOD/S2/main.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\SIAOD\S2\main.cpp.obj.d
+build CMakeFiles/untitled.dir/SIAOD/A/S2/n1/main.cpp.obj: CXX_COMPILER__untitled_unscanned_Debug C$:/Users/artez/CLionProjects/untitled/SIAOD/A/S2/n1/main.cpp || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\SIAOD\A\S2\n1\main.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\SIAOD\S2
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\SIAOD\A\S2\n1
 
 
 # =============================================================================
@@ -69,7 +69,7 @@ build CMakeFiles/untitled.dir/SIAOD/S2/main.cpp.obj: CXX_COMPILER__untitled_unsc
 #############################################
 # Link the executable untitled.exe
 
-build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/SIAOD/S2/File.cpp.obj CMakeFiles/untitled.dir/SIAOD/S2/main.cpp.obj
+build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/SIAOD/A/S2/n1/File.cpp.obj CMakeFiles/untitled.dir/SIAOD/A/S2/n1/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled.dir
@@ -78,6 +78,111 @@ build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.di
   TARGET_FILE = untitled.exe
   TARGET_IMPLIB = libuntitled.dll.a
   TARGET_PDB = untitled.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target untitled2
+
+
+#############################################
+# Order-only phony target for untitled2
+
+build cmake_object_order_depends_target_untitled2: phony || CMakeFiles/untitled2.dir
+
+build CMakeFiles/untitled2.dir/SIAOD/A/S2/n2/vuz.cpp.obj: CXX_COMPILER__untitled2_unscanned_Debug C$:/Users/artez/CLionProjects/untitled/SIAOD/A/S2/n2/vuz.cpp || cmake_object_order_depends_target_untitled2
+  DEP_FILE = CMakeFiles\untitled2.dir\SIAOD\A\S2\n2\vuz.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled2.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled2.dir\SIAOD\A\S2\n2
+
+build CMakeFiles/untitled2.dir/SIAOD/A/S2/n2/main2.cpp.obj: CXX_COMPILER__untitled2_unscanned_Debug C$:/Users/artez/CLionProjects/untitled/SIAOD/A/S2/n2/main2.cpp || cmake_object_order_depends_target_untitled2
+  DEP_FILE = CMakeFiles\untitled2.dir\SIAOD\A\S2\n2\main2.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled2.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled2.dir\SIAOD\A\S2\n2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target untitled2
+
+
+#############################################
+# Link the executable untitled2.exe
+
+build untitled2.exe: CXX_EXECUTABLE_LINKER__untitled2_Debug CMakeFiles/untitled2.dir/SIAOD/A/S2/n2/vuz.cpp.obj CMakeFiles/untitled2.dir/SIAOD/A/S2/n2/main2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\untitled2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = untitled2.exe
+  TARGET_IMPLIB = libuntitled2.dll.a
+  TARGET_PDB = untitled2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target untitled3
+
+
+#############################################
+# Order-only phony target for untitled3
+
+build cmake_object_order_depends_target_untitled3: phony || CMakeFiles/untitled3.dir
+
+build CMakeFiles/untitled3.dir/SIAOD/B/S2/n1/main.cpp.obj: CXX_COMPILER__untitled3_unscanned_Debug C$:/Users/artez/CLionProjects/untitled/SIAOD/B/S2/n1/main.cpp || cmake_object_order_depends_target_untitled3
+  DEP_FILE = CMakeFiles\untitled3.dir\SIAOD\B\S2\n1\main.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled3.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled3.dir\SIAOD\B\S2\n1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target untitled3
+
+
+#############################################
+# Link the executable untitled3.exe
+
+build untitled3.exe: CXX_EXECUTABLE_LINKER__untitled3_Debug CMakeFiles/untitled3.dir/SIAOD/B/S2/n1/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\untitled3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = untitled3.exe
+  TARGET_IMPLIB = libuntitled3.dll.a
+  TARGET_PDB = untitled3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SIAOD_2B_e2
+
+
+#############################################
+# Order-only phony target for SIAOD_2B_e2
+
+build cmake_object_order_depends_target_SIAOD_2B_e2: phony || CMakeFiles/SIAOD_2B_e2.dir
+
+build CMakeFiles/SIAOD_2B_e2.dir/SIAOD/B/S2/n2/main.cpp.obj: CXX_COMPILER__SIAOD_2B_e2_unscanned_Debug C$:/Users/artez/CLionProjects/untitled/SIAOD/B/S2/n2/main.cpp || cmake_object_order_depends_target_SIAOD_2B_e2
+  DEP_FILE = CMakeFiles\SIAOD_2B_e2.dir\SIAOD\B\S2\n2\main.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SIAOD_2B_e2.dir
+  OBJECT_FILE_DIR = CMakeFiles\SIAOD_2B_e2.dir\SIAOD\B\S2\n2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SIAOD_2B_e2
+
+
+#############################################
+# Link the executable SIAOD_2B_e2.exe
+
+build SIAOD_2B_e2.exe: CXX_EXECUTABLE_LINKER__SIAOD_2B_e2_Debug CMakeFiles/SIAOD_2B_e2.dir/SIAOD/B/S2/n2/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SIAOD_2B_e2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SIAOD_2B_e2.exe
+  TARGET_IMPLIB = libSIAOD_2B_e2.dll.a
+  TARGET_PDB = SIAOD_2B_e2.exe.dbg
 
 
 #############################################
@@ -105,7 +210,13 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build SIAOD_2B_e2: phony SIAOD_2B_e2.exe
+
 build untitled: phony untitled.exe
+
+build untitled2: phony untitled2.exe
+
+build untitled3: phony untitled3.exe
 
 # =============================================================================
 # Folder targets.
@@ -115,7 +226,7 @@ build untitled: phony untitled.exe
 #############################################
 # Folder: C:/Users/artez/CLionProjects/untitled/cmake-build-debug
 
-build all: phony untitled.exe
+build all: phony untitled.exe untitled2.exe untitled3.exe SIAOD_2B_e2.exe
 
 # =============================================================================
 # Built-in targets
