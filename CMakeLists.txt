@@ -8,9 +8,9 @@ add_executable(untitled
         SIAOD/A/S2/n1/main.cpp
 )
 add_executable(untitled2
-        SIAOD/A/S2/n2/vuz.h
-        SIAOD/A/S2/n2/vuz.cpp
-        SIAOD/A/S2/n2/main2.cpp
+        TESTING_GROUND/n2/vuz.h
+        TESTING_GROUND/n2/vuz.cpp
+        TESTING_GROUND/n2/main2.cpp
 )
 add_executable(untitled3 SIAOD/B/S2/n1/main.cpp)
 add_executable(SIAOD_2B_e2 SIAOD/B/S2/n2/main.cpp)
