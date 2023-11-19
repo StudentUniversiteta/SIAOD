@@ -1,4 +1,5 @@
 #include "car.h"
+
 void createBinFile(ifstream &textFile, ofstream &binFile)
 {
     while (!textFile.eof())

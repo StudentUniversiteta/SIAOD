@@ -4,5 +4,7 @@ C:/Users/artez/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled3.dir
 C:/Users/artez/CLionProjects/untitled/cmake-build-debug/CMakeFiles/SIAOD_2B_e2.dir
 C:/Users/artez/CLionProjects/untitled/cmake-build-debug/CMakeFiles/TESTER.dir
 C:/Users/artez/CLionProjects/untitled/cmake-build-debug/CMakeFiles/newn2.dir
+C:/Users/artez/CLionProjects/untitled/cmake-build-debug/CMakeFiles/S-A_3-1.dir
+C:/Users/artez/CLionProjects/untitled/cmake-build-debug/CMakeFiles/S-B_3-1.dir
 C:/Users/artez/CLionProjects/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/artez/CLionProjects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
