@@ -4,8 +4,6 @@
 #include <string>
 #include "string.h"
 #include <filesystem>
-#include <io.h>
-#include <fcntl.h>
 using namespace std;
 struct vuz
 {
@@ -14,7 +12,7 @@ struct vuz
     char faculty[100];
     vuz() {}
 };
-bool createBinaryFile(ifstream &textFile, ofstream &binaryFile);
+void createBinFile(ifstream &textFile, ofstream &binFile);
 void readTextFromBin(ifstream &binfile, ofstream &textFile);
 void printBinFile(ifstream &file);
 vuz getRecord(ifstream &file, int n);

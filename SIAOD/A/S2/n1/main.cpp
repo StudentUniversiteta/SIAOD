@@ -87,7 +87,7 @@ int main() {
                 if (fin.is_open()) {
                     lines = countLines(fin);
                     if (!fin) {
-                        cout << "Возникла ошибка при работе с файлом...";
+                        cout << "Возникла ошибка при работе с первым файлом...";
                         break;
                     }
                     fin.close();
@@ -95,14 +95,14 @@ int main() {
                     fout.open(newfilename);
                     makeNewFile(fin, fout, lines);
                     if (!fin || !fout) {
-                        cout << "Возникла ошибка при работе с файлом...";
+                        cout << "Возникла ошибка при создании второго файла...";
                     }
                     fin.close();
                     fout.close();
                     fin.open(newfilename);
                     printNumbers(fin);
                     if (!fin) {
-                        cout << "Возникла ошибка при работе с файлом...";
+                        cout << "Возникла ошибка при работе с новым файлом...";
                         break;
                     }
                     fin.close();

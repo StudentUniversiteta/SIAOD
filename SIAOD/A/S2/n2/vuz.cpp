@@ -1,44 +1,52 @@
 #include "vuz.h"
-void createBinFile(ifstream &textFile, ofstream &binFile)
+bool createBinaryFile(ifstream &textFile, ofstream &binaryFile)
 {
+    string firstFile, secondFile;
+    wcout<<"Введите название текстового файла: "<<endl;
+    cin>>firstFile;
+    wcout<<"Введите название двоичного файла: "<<endl;
+    cin>>secondFile;
     while (!textFile.eof())
     {
-        vuz x;
-        char symbol;
-        int i = 0;
-        textFile.get(x.code[i]);
-        while (x.code[i] != '\n')
+
+        textFile.open(firstFile);
+        binaryFile.open(secondFile, ios::binary);
+        if (!textFile)
         {
-            i++;
-            textFile.get(x.code[i]);
+            wcout << "Не удалось открыть текстовый файл!" << std::endl;
+            return 1;
         }
-        x.code[i] = '\0';
-        i = 0;
-        textFile.get(x.name[i]);
-        while (x.name[i] != '\n')
+        if (!binaryFile)
         {
-            i++;
-            textFile.get(x.name[i]);
+            std::cerr << "Не удалось открыть двоичный файл!" << std::endl;
+            return 1;
         }
-        x.name[i] = '\0';
-        i = 0;
-        textFile.get(x.faculty[i]);
-        while (x.faculty[i] != '\n' && !textFile.eof())
-        {
-            i++;
-            textFile.get(x.faculty[i]);
+        char c;
+        // Читаем символы из текстового файла, пока не достигнем конца файла
+        while (textFile.get(c)) {
+            // Записываем символ в двоичный файл
+            binaryFile.write(reinterpret_cast<const char*>(&c), sizeof(c));
         }
-        x.faculty[i] = '\0';
-        binFile.write((char *)&x, sizeof(vuz));
+
+        // Закрываем файлы
+        textFile.close();
+        binaryFile.close();
+
+        std::wcout << "Конвертация завершена!" << std::endl;
+
+        return 0;
     }
+
 }
 void printBinFile(ifstream &file)
 {
     vuz x;
+    //file.open("C:\\Users\\artez\\Desktop\\output.bin", ios::binary);
     file.read((char *)&x, sizeof(vuz));
     while (!file.eof())
     {
-        cout << x.code << " | " << x.name << " | " << x.faculty << "\n";
+
+        wcout << x.code << " | " << x.name << " | " << x.faculty << endl;
         file.read((char *)&x, sizeof(vuz));
     }
 }
@@ -79,17 +87,18 @@ void deleteRecord(fstream &file, string key, string filename)
         file.open(filename, ios::binary);
     }
 }
-void readTextFromBin(ifstream &binFile, ofstream &textFile)
+void readTextFromBin(ifstream &binaryFile, ofstream &textFile)
 {
+    //string binF = "C:\\Users\\artez\\Desktop\\output.bin";
     vuz x;
-    binFile.read((char *)&x, sizeof(vuz));
-    while (!binFile.eof())
+    binaryFile.read((char *)&x, sizeof(vuz));
+    while (!binaryFile.eof())
     {
         textFile << x.code << '\n'
                  << x.name << '\n'
                  << x.faculty;
-        binFile.read((char *)&x, sizeof(vuz));
-        if (!binFile.eof())
+        binaryFile.read((char *)&x, sizeof(vuz));
+        if (!binaryFile.eof())
         {
             textFile << '\n';
         }

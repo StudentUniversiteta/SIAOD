@@ -184,6 +184,78 @@ build SIAOD_2B_e2.exe: CXX_EXECUTABLE_LINKER__SIAOD_2B_e2_Debug CMakeFiles/SIAOD
   TARGET_IMPLIB = libSIAOD_2B_e2.dll.a
   TARGET_PDB = SIAOD_2B_e2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target TESTER
+
+
+#############################################
+# Order-only phony target for TESTER
+
+build cmake_object_order_depends_target_TESTER: phony || CMakeFiles/TESTER.dir
+
+build CMakeFiles/TESTER.dir/TESTING_GROUND/S2/main.cpp.obj: CXX_COMPILER__TESTER_unscanned_Debug C$:/Users/artez/CLionProjects/untitled/TESTING_GROUND/S2/main.cpp || cmake_object_order_depends_target_TESTER
+  DEP_FILE = CMakeFiles\TESTER.dir\TESTING_GROUND\S2\main.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TESTER.dir
+  OBJECT_FILE_DIR = CMakeFiles\TESTER.dir\TESTING_GROUND\S2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TESTER
+
+
+#############################################
+# Link the executable TESTER.exe
+
+build TESTER.exe: CXX_EXECUTABLE_LINKER__TESTER_Debug CMakeFiles/TESTER.dir/TESTING_GROUND/S2/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\TESTER.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = TESTER.exe
+  TARGET_IMPLIB = libTESTER.dll.a
+  TARGET_PDB = TESTER.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target newn2
+
+
+#############################################
+# Order-only phony target for newn2
+
+build cmake_object_order_depends_target_newn2: phony || CMakeFiles/newn2.dir
+
+build CMakeFiles/newn2.dir/SIAOD/A/S2/newn2/vuz.cpp.obj: CXX_COMPILER__newn2_unscanned_Debug C$:/Users/artez/CLionProjects/untitled/SIAOD/A/S2/newn2/vuz.cpp || cmake_object_order_depends_target_newn2
+  DEP_FILE = CMakeFiles\newn2.dir\SIAOD\A\S2\newn2\vuz.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\newn2.dir
+  OBJECT_FILE_DIR = CMakeFiles\newn2.dir\SIAOD\A\S2\newn2
+
+build CMakeFiles/newn2.dir/SIAOD/A/S2/newn2/main.cpp.obj: CXX_COMPILER__newn2_unscanned_Debug C$:/Users/artez/CLionProjects/untitled/SIAOD/A/S2/newn2/main.cpp || cmake_object_order_depends_target_newn2
+  DEP_FILE = CMakeFiles\newn2.dir\SIAOD\A\S2\newn2\main.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\newn2.dir
+  OBJECT_FILE_DIR = CMakeFiles\newn2.dir\SIAOD\A\S2\newn2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target newn2
+
+
+#############################################
+# Link the executable newn2.exe
+
+build newn2.exe: CXX_EXECUTABLE_LINKER__newn2_Debug CMakeFiles/newn2.dir/SIAOD/A/S2/newn2/vuz.cpp.obj CMakeFiles/newn2.dir/SIAOD/A/S2/newn2/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\newn2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = newn2.exe
+  TARGET_IMPLIB = libnewn2.dll.a
+  TARGET_PDB = newn2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -212,6 +284,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build SIAOD_2B_e2: phony SIAOD_2B_e2.exe
 
+build TESTER: phony TESTER.exe
+
+build newn2: phony newn2.exe
+
 build untitled: phony untitled.exe
 
 build untitled2: phony untitled2.exe
@@ -226,7 +302,7 @@ build untitled3: phony untitled3.exe
 #############################################
 # Folder: C:/Users/artez/CLionProjects/untitled/cmake-build-debug
 
-build all: phony untitled.exe untitled2.exe untitled3.exe SIAOD_2B_e2.exe
+build all: phony untitled.exe untitled2.exe untitled3.exe SIAOD_2B_e2.exe TESTER.exe newn2.exe
 
 # =============================================================================
 # Built-in targets
