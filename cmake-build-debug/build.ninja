@@ -88,17 +88,17 @@ build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.di
 
 build cmake_object_order_depends_target_untitled2: phony || CMakeFiles/untitled2.dir
 
-build CMakeFiles/untitled2.dir/SIAOD/A/S2/n2/vuz.cpp.obj: CXX_COMPILER__untitled2_unscanned_Debug C$:/Users/artez/CLionProjects/untitled/SIAOD/A/S2/n2/vuz.cpp || cmake_object_order_depends_target_untitled2
-  DEP_FILE = CMakeFiles\untitled2.dir\SIAOD\A\S2\n2\vuz.cpp.obj.d
+build CMakeFiles/untitled2.dir/TESTING_GROUND/n2/vuz.cpp.obj: CXX_COMPILER__untitled2_unscanned_Debug C$:/Users/artez/CLionProjects/untitled/TESTING_GROUND/n2/vuz.cpp || cmake_object_order_depends_target_untitled2
+  DEP_FILE = CMakeFiles\untitled2.dir\TESTING_GROUND\n2\vuz.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\untitled2.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled2.dir\SIAOD\A\S2\n2
+  OBJECT_FILE_DIR = CMakeFiles\untitled2.dir\TESTING_GROUND\n2
 
-build CMakeFiles/untitled2.dir/SIAOD/A/S2/n2/main2.cpp.obj: CXX_COMPILER__untitled2_unscanned_Debug C$:/Users/artez/CLionProjects/untitled/SIAOD/A/S2/n2/main2.cpp || cmake_object_order_depends_target_untitled2
-  DEP_FILE = CMakeFiles\untitled2.dir\SIAOD\A\S2\n2\main2.cpp.obj.d
+build CMakeFiles/untitled2.dir/TESTING_GROUND/n2/main2.cpp.obj: CXX_COMPILER__untitled2_unscanned_Debug C$:/Users/artez/CLionProjects/untitled/TESTING_GROUND/n2/main2.cpp || cmake_object_order_depends_target_untitled2
+  DEP_FILE = CMakeFiles\untitled2.dir\TESTING_GROUND\n2\main2.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\untitled2.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled2.dir\SIAOD\A\S2\n2
+  OBJECT_FILE_DIR = CMakeFiles\untitled2.dir\TESTING_GROUND\n2
 
 
 # =============================================================================
@@ -108,7 +108,7 @@ build CMakeFiles/untitled2.dir/SIAOD/A/S2/n2/main2.cpp.obj: CXX_COMPILER__untitl
 #############################################
 # Link the executable untitled2.exe
 
-build untitled2.exe: CXX_EXECUTABLE_LINKER__untitled2_Debug CMakeFiles/untitled2.dir/SIAOD/A/S2/n2/vuz.cpp.obj CMakeFiles/untitled2.dir/SIAOD/A/S2/n2/main2.cpp.obj
+build untitled2.exe: CXX_EXECUTABLE_LINKER__untitled2_Debug CMakeFiles/untitled2.dir/TESTING_GROUND/n2/vuz.cpp.obj CMakeFiles/untitled2.dir/TESTING_GROUND/n2/main2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled2.dir
@@ -166,6 +166,12 @@ build CMakeFiles/SIAOD_2B_e2.dir/SIAOD/B/S2/n2/main.cpp.obj: CXX_COMPILER__SIAOD
   OBJECT_DIR = CMakeFiles\SIAOD_2B_e2.dir
   OBJECT_FILE_DIR = CMakeFiles\SIAOD_2B_e2.dir\SIAOD\B\S2\n2
 
+build CMakeFiles/SIAOD_2B_e2.dir/SIAOD/B/S2/n2/car.cpp.obj: CXX_COMPILER__SIAOD_2B_e2_unscanned_Debug C$:/Users/artez/CLionProjects/untitled/SIAOD/B/S2/n2/car.cpp || cmake_object_order_depends_target_SIAOD_2B_e2
+  DEP_FILE = CMakeFiles\SIAOD_2B_e2.dir\SIAOD\B\S2\n2\car.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SIAOD_2B_e2.dir
+  OBJECT_FILE_DIR = CMakeFiles\SIAOD_2B_e2.dir\SIAOD\B\S2\n2
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target SIAOD_2B_e2
@@ -174,7 +180,7 @@ build CMakeFiles/SIAOD_2B_e2.dir/SIAOD/B/S2/n2/main.cpp.obj: CXX_COMPILER__SIAOD
 #############################################
 # Link the executable SIAOD_2B_e2.exe
 
-build SIAOD_2B_e2.exe: CXX_EXECUTABLE_LINKER__SIAOD_2B_e2_Debug CMakeFiles/SIAOD_2B_e2.dir/SIAOD/B/S2/n2/main.cpp.obj
+build SIAOD_2B_e2.exe: CXX_EXECUTABLE_LINKER__SIAOD_2B_e2_Debug CMakeFiles/SIAOD_2B_e2.dir/SIAOD/B/S2/n2/main.cpp.obj CMakeFiles/SIAOD_2B_e2.dir/SIAOD/B/S2/n2/car.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\SIAOD_2B_e2.dir
